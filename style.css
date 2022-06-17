@@ -66,3 +66,6 @@ body {
     transition: .3s ease;
 }
 
+.circle.active {
+    border-color: red;
+}
