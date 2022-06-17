@@ -67,7 +67,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid  var((--line-border-empty));;
+    border: 3px solid  var((--line-border-empty));
     transition: .3s ease;
 }
 
@@ -77,7 +77,7 @@ body {
 
 .btn {
     background-color:  var((--line-border-fill));
-    color: #fff;
+    color: black;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
@@ -85,4 +85,17 @@ body {
     padding: 8px 30px;
     margin: 5px;
     font-size: 12px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:disabled {
+    background-color: var((--line-border-empty));
+    cursor: not-allowed;
 }
