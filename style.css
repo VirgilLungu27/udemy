@@ -72,5 +72,17 @@ body {
 }
 
 .circle.active {
-    border-color:  var((--line-border-fill)););
+    border-color: var((--line-border-fill)););
+}
+
+.btn {
+    background-color:  var((--line-border-fill));
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 12px;
 }
