@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+:root {
+   --line-border-fill: red;
+   --line-border-empty: #e0e0e0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -31,7 +36,7 @@ body {
 
 .progress-container::before {
     content: '';
-    background-color: #e0e0e0;
+    background-color: var((--line-border-empty));
     position: absolute;
     top: 50%;
     left: 0;
@@ -42,7 +47,7 @@ body {
 }
 
 .progress {
-    background-color: red;
+    background-color:  var((--line-border-fill));
     position: absolute;
     top: 50%;
     left: 0;
@@ -62,10 +67,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #e0e0e0;
+    border: 3px solid  var((--line-border-empty));;
     transition: .3s ease;
 }
 
 .circle.active {
-    border-color: red;
+    border-color:  var((--line-border-fill)););
 }
