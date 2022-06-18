@@ -50,3 +50,7 @@ body {
     font-size: 26px;
     color: #fff;
 }
+
+.circle button:focus {
+    outline: none;
+}
