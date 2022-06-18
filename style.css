@@ -69,3 +69,22 @@ body {
 .content img {
     max-width: 100%;
 }
+
+.content {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.content h1 {
+    margin: 0;
+}
+
+.content small {
+    color: #554;
+    font-style: italic;
+}
+
+.content paragraph {
+    color: #333;
+    line-height: 1.5;
+}
