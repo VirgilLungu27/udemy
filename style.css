@@ -11,3 +11,11 @@ body {
     background-color: #333;
     color: #222;   
 }
+
+.container {
+    background-color: #fff;
+}
+
+.container.show-nav {
+    transform: rotate(-20deg);
+}
