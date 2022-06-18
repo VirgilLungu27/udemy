@@ -1,3 +1,4 @@
-This project was made as part of an Udemy course.
+Made for an Udemy project.
 
-It represents a web page consisting of six progress steps.
+This project represents a sideways transition when clicking a menu icon shown in the top-left page.
+
