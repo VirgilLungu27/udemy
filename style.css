@@ -82,6 +82,13 @@ nav ul li {
     text-transform: uppercase;
     color: #fff;
     margin: 40px 0;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+}
+
+nav ul li i {
+    font-size: 18px;
+    margin-right: 10px;
 }
 
 .content img {
