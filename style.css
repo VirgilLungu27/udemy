@@ -23,11 +23,11 @@ body {
     width: calc(100vw + 60px);
     height: calc(100vh +60px);
     z-index: -1;
-    filter: blur(60px);
+    filter: blur(0px);
 }
 
 .loading-text {
     font-size: 55px;
-    color: #ffa;
+    color: rgb(0, 0, 0);
     
 }
