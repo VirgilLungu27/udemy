@@ -1,4 +1,4 @@
-Made for an Udemy project.
+This project is part of an Udemy course.
 
-This project represents a sideways transition when clicking a menu icon shown in the top-left page.
+This project focuses on making blurry loading in a web page.
 
