@@ -13,6 +13,7 @@ function blurring() {
     }
     loadText.innerText = `${load}%`;
     loadText.style.opacity = scale(load, 0, 100, 1, 0);
+    bg.style.filter = `blur(${scale(load, 0, 100, 20, 0)}px)`;
 }
 
 /* Parameter added for changing opacity, since it needs to be the other way around compared to the loading page */

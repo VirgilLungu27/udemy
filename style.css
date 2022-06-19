@@ -16,14 +16,14 @@ body {
 }
 
 .bg {
-    background: url('https://img.freepik.com/free-vector/soft-colorful-watercolor-texture-decorative-background-vector_1055-12347.jpg?w=2000') no-repeat center center/cover;
+    background: url('https://wallpaperping.com/wp-content/uploads/2018/07/top-hd-Full-HD-Wallpaper.jpg') no-repeat center center/cover;
     position: absolute;
     top: -20px;
     left: -20px;
     width: calc(100vw + 60px);
-    height: calc(100vh +60px);
+    height: calc(100vh + 60px);
     z-index: -1;
-    filter: blur(0px);
+    filter: blur(20px);
 }
 
 .loading-text {
