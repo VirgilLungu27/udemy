@@ -135,3 +135,13 @@ body {
 .hover-right .right {
     width: var(--hover-width);
 }
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .btn {
+        width: 11rem;
+        padding: 1.1rem;
+    }
+}
