@@ -24,3 +24,17 @@ body {
     height: 100%;
     overflow: hidden;
 }
+
+.split.left {
+    left: 0;
+    background: url('https://images2.mobilissimo.ro/RE2/620f88fdbd154.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.right {
+    right: 0;
+    background: url('https://d2cdo4blch85n8.cloudfront.net/wp-content/uploads/2022/05/Xiaomi-Redmi-Note-11T-Pro-Astro-Boy-Edition.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
