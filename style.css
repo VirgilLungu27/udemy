@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
+:root {
+    --left-bg-color: rgb(1, 73, 29);
+    --right-bg-color: rgba(255, 255, 0, 0.452);
+}
 * {
     box-sizing: border-box;
 }
@@ -30,6 +35,14 @@ body {
     background: url('https://images2.mobilissimo.ro/RE2/620f88fdbd154.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.split.left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg-color);
 }
 
 .split.right {
