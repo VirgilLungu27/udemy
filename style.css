@@ -16,6 +16,16 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
 .container {
     position: relative;
     width: 100%;
