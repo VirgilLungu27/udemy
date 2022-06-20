@@ -8,6 +8,7 @@
     --right-btn-hover-color: rgba(255, 255, 0, 1);
     --hover-width: 66%;
     --other-width: 34%;
+    --speed: 800ms;
 }
 * {
     box-sizing: border-box;
@@ -112,6 +113,10 @@ body {
 .split.right.btn:hover {
     background-color: var(--right-btn-hover-color);
     border-color: var(--right-btn-hover-color);
+}
+
+.split.right, .split.left, .split.right::before, .split.left::before {
+    transition: all var(--speed) ease-in-out;
 }
 
 .hover-left .left {
