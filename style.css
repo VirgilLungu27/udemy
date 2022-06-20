@@ -25,7 +25,7 @@ body {
 
 .container h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container a {
@@ -39,4 +39,17 @@ body {
     width: 300px;
 }
 
-.form
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.form-control input:focus, .form-control input:valid {
+    outline: 0;
+}
