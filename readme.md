@@ -1,3 +1,3 @@
-This project was made as part of an Udemy course.
+Project made as part of an Udemy course.
 
-This represents a split landing page with two phones for a store.
+This project showcases a form wave log in form.
