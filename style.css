@@ -2,8 +2,8 @@
 
 
 :root {
-    --left-bg-color: rgb(1, 73, 29);
-    --right-bg-color: rgba(255, 255, 0, 0.452);
+    --left-bg-color: rgb(1, 73, 29, 0.3);
+    --right-bg-color: rgba(255, 255, 0, 0.3);
 }
 * {
     box-sizing: border-box;
@@ -57,5 +57,5 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: var(--left-bg-color);
+    background-color: var(--right-bg-color);
 }
