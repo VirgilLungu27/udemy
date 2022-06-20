@@ -53,6 +53,10 @@ body {
     transform: scale(0.95);
 }
 
+.text {
+    margin-top: 20px;
+}
+
 .form-control {
     position: relative;
     margin: 20px 0 40px;
