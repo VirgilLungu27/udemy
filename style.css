@@ -53,3 +53,11 @@ h3 {
     font-size: 15px;
     cursor: pointer;
 }
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
