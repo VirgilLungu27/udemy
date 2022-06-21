@@ -8,3 +8,8 @@ body {
     font-family: 'Poppins', 'Ubuntu', sans-serif;
     background-color: darkgrey;
 }
+
+h1 {
+    margin: 50px 0 30px;
+    text-align: center;
+}
