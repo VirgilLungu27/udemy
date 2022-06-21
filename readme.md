@@ -1,3 +1,3 @@
-Project made as part of an Udemy course.
+Made as part of an Udemy project.
 
-This project showcases a form wave log in form.
+This project showcases an FAQ test.
