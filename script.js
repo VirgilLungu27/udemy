@@ -9,5 +9,5 @@ function generateJoke() {
             'Accept': 'application/json'
         }
     }
-    fetch('https://icanhazdadjoke.com', config)   
+    fetch('https://api.chucknorris.io/jokes/random', config).then(res => res.json()).then(data => console.log(data));
 }
