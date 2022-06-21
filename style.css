@@ -42,3 +42,14 @@ h3 {
     margin: 50px auto;
     max-width: 600px;
 }
+
+.btn {
+    background-color: rebeccapurple;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    padding: 14px 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
