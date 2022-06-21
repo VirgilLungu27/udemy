@@ -1,13 +1,17 @@
 const jokeElement = document.getElementById('joke');
 const jokeBtn = document.getElementById('jokeBtn');
 
+jokeBtn.addEventListener('click', generateJoke);
+
 generateJoke();
 
 function generateJoke() {
     const config = {
         headers: {
-            'Accept': 'application/json'
+            'Accept': 'application/json',
         }
     }
-    fetch('https://api.chucknorris.io/jokes/random', config).then(res => res.json()).then(data => console.log(data));
-}
+    fetch('https://api.chucknorris.io/jokes/random', config).then((res) => res.json()).then((data) => {
+        jokeElement.innerHTML = data.joke;
+    })
+};
