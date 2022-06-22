@@ -76,3 +76,17 @@ nav ul a {
 .icon:focus {
     outline: 0;
 }
+
+.icon .line {
+    background-color: lavenderblush;
+    height: 2px;
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    left: 5px;
+}
+
+.icon .line2 {
+    top: auto;
+    bottom: 10px;
+}
