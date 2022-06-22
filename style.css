@@ -15,3 +15,19 @@ body {
     background-image: linear-gradient(to bottom, lavenderblush 0%, lavenderblush 50%, #532224 50%, #532224 100%);
     margin: 0;
 }
+
+nav {
+    background-color: white; 
+    padding: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+nav.active {
+    width: 350px;
+
+}
