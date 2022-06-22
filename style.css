@@ -5,49 +5,13 @@
 }
 
 body {
-    background-color: #2baa6f;
     font-family: 'Poppins', 'Ubuntu', sans-serif;
     margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
-}
-
-h3 {
-    color: white;
-    margin: 10px 0 20px;
-    text-align: center;
-}
-
-.container {
-    width: 650px;
-}
-
-textarea {
-    border: none;
-    display: block;
-    width: 100%;
-    height: 120px;
-    font-family: inherit;
-    padding: 8px;
-    border-radius: 5px;
-    margin: 0 0 20px;
-    font-size: 18px;
-}
-
-.tag {
-    background-color: rgba(0, 255, 213, 0.35);
-    color: #fff;
-    border-radius: 40px;
-    padding: 8px 16px;
-    margin: 0 5px 10px 0;
-    font-size: 16px;
-    display: inline-block;
-}
-
-.tag.highlight {
-    background-color: rgb(119, 72, 34);
+    background-color: lavenderblush;
+    background-image: linear-gradient(to bottom, lavenderblush 0%, lavenderblush 50%, #532224 50%, #532224 100%);
+    margin: 0;
 }
