@@ -25,9 +25,19 @@ nav {
     justify-content: center;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: width 0.7s linear;
 }
 
 nav.active {
     width: 350px;
+}
 
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    transition: width 0.5s linear;
+    
 }
