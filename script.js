@@ -37,6 +37,13 @@ function randomSelect() {
 
 function pickRandomTag() {
     const tags = document.querySelectorAll('.tag');
+    return tags[Math.floor(Math.random()*tags.length)];
+}
 
-    return tags[Math.floor(Math.random()*tags.length)]
+function highlightTag(tag) {
+    tag.classList.add('highlight');
+}
+
+function unhighlightTag(tag) {
+    tag.classList.remove('highlight');
 }
