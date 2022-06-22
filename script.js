@@ -1,7 +1,12 @@
-const toggles = document.querySelectorAll('.faq-toggle');
+const tagsElement = document.getElementById('tags');
+const textarea = document.getElementById('textarea');
 
-toggles.forEach(toggle => {
-    toggle.addEventListener('click', () => {
-        toggle.parentNode.classList.toggle('active')
-    })
+textarea.focus()
+
+textarea.addEventListener('keyup', (e) => {
+    createTags(e.target.value)
 });
+
+function createTags(input) {
+    const tags = input.split(',');   
+}
