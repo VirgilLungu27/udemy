@@ -11,7 +11,7 @@ textarea.addEventListener('keyup', (e) => {
             e.target.value = '';
         }, 10)
 
-        randomSelect()
+        randomSelect();
     }
 });
 
@@ -26,3 +26,11 @@ function createTags(input) {
         tagsElement.appendChild(tagEl);
     })
 };
+
+function randomSelect() {
+    const times = 20;
+
+    const interval = setInterval(() => {
+        const randomTag = pickRandomTag();
+    }, 100);
+}
