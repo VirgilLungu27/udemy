@@ -1,6 +1,5 @@
-const toggle = document.getElementById('toggle');
-const nav = document.getElementById('nav');
+const counters = document.querySelectorAll('.counter');
 
-toggle.addEventListener('click', () => {
-  nav.classList.toggle('active');  
+counters.forEach(counter => {
+    counter.innerText = '0';
 })
