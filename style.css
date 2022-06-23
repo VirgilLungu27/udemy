@@ -47,10 +47,18 @@ h3 {
     border-radius: 0 0 20px 20px;
     background-color: rgba(255, 255, 255, 0.9);
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 5px;
     transition: 0.3s ease;
+}
+
+.cups {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
 }
