@@ -68,3 +68,13 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
+.remained {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+    transition: 0.3s ease;
+}
