@@ -1,4 +1,4 @@
 Made as part of an Udemy course.
 
-This project showcases a small navigation toggle with four links.
+This project showcases the ability to increase the counter of followers on social media via an animation that counts up every milisecond.
 
