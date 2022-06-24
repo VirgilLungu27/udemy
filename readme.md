@@ -1,3 +1,3 @@
 Made as part of an Udemy course.
 
-This project showcases a small program with a drink water target of 2.5 Liters.
+This project showcases a movie app created with CSS and the MovieDB API.
