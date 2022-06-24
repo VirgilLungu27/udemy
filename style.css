@@ -78,3 +78,14 @@ main {
     background-color: var(--primary-color);
     font-weight: 800;
 }
+
+.movie-info span.green {
+    color: lightgreen;
+}
+
+.movie-info span.orange {
+    color: orange;
+}
+.movie-info span.red {
+    color: red;
+}
