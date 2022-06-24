@@ -71,3 +71,10 @@ main {
 .movie-info h3 {
     margin-top: 0;
 }
+
+.movie-info span {
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    font-weight: 800;
+}
