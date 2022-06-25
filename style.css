@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    transition: all 0.3s ease-in;
+}
+
 html.dark {
     --primary-color: white;
     --secondary-clock: #222;
