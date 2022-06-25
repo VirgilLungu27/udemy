@@ -33,6 +33,7 @@ function setTime() {
     minuteElement.style.transform = `translate(-50%, -100%) rotate(${scale(minutes, 0, 59, 0, 360)}deg)`;
     secondElement.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 59, 0, 360)}deg)`;
 
+    timeElement.innerHTML = `${hours}:${minutes < 10 ? `0${minutes}` :  minutes}`
 }
 
 const scale = (num, in_min, in_max, out_min, out_max) => { 
