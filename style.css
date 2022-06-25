@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
 
+:root {
+    --primary-color: rgb(2, 34, 2);
+    --secondary-clock: white;
+}
+
 * {
     box-sizing: border-box;
+}
+
+html.dark {
+    --primary-color: white;
+    --secondary-clock: #222;
+}
+
+html.dark {
+    background-color: #111;
+    color: var(--primary-color);
 }
 
 body {
     font-family: 'Heebo', 'Ubuntu', sans-serif;
     margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
