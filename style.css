@@ -60,3 +60,13 @@ body {
     width: 200px;
     height: 200px;
 }
+
+.needle {
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 65px;
+    width: 3px;
+    transform-origin: bottom center;
+}
