@@ -6,24 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <script src="script.js" defer></script>
-    <title>Background Slider</title>
+    <title>Theme Clock</title>
 </head>
 <body>
-   <div class="slider-container">
-    <div class="slide active" style="background-image:url('https://cdn.wallpapersafari.com/3/63/6lKjw4.jpg')"></div>
-    <div class="slide" style="background-image:url('https://cdn.wallpapersafari.com/40/72/y4X98h.jpg')"></div>
-    <div class="slide" style="background-image:url('https://wallpapertag.com/wallpaper/full/8/5/0/437273-popular-country-desktop-backgrounds-2560x1600-for-mac.jpg')"></div>
-    <div class="slide" style="background-image:url('https://wallup.net/wp-content/uploads/2016/01/298692-landscape-road.jpg')"></div>
-    <div class="slide" style="background-image:url('https://wallup.net/wp-content/uploads/2016/01/157687-landscape-road-trees.jpg')"></div>
-    <button class="arrow left-arrow" id="left">
-        <i class="fas fa-arrow-left"></i>
-    </button>
-    <button class="arrow right-arrow" id="right">
-        <i class="fas fa-arrow-right"></i>
-    </button>
-</div>
-</body>
+   <button class="toggle">dark mode</button>
+   <div class="clock-container">
+    <div class="clock">
+        <div class="needle hour"></div>
+        <div class="needle minute"></div>
+        <div class="needle second"></div>
+        <div class="center-point"></div>
+    </div>
+    <div class="time">16:00</div>
+    <div class="date">Saturday, June <span class="circle">2</span></div>
+   </div>
 </body>
 </html>
