@@ -24,6 +24,7 @@ function setTime() {
     const time = new Date();
     const month = time.getMonth();
     const day = time.getDay();
+    const date = time.getDate();
     const hours = time.getHours();
     const hoursForClock = hours % 12;
     const minutes = time.getMinutes();
@@ -34,6 +35,7 @@ function setTime() {
     secondElement.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 59, 0, 360)}deg)`;
 
     timeElement.innerHTML = `${hours}:${minutes < 10 ? `0${minutes}` :  minutes}`
+    dateElement.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`
 }
 
 const scale = (num, in_min, in_max, out_min, out_max) => { 
