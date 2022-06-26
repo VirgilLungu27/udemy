@@ -1,23 +1,17 @@
-const buttons = document.querySelectorAll('.ripple');
+function dragStart() {   
+}
 
-buttons.forEach(button => {
-    button.addEventListener('click', function (e) {
-        const x = e.clientX;
-        const y = e.clientY;
+function dragEnd() {   
+}
 
-        const buttonTop = e.target.offsetTop;
-        const buttonLeft = e.target.offsetLeft;
+function dragOver() {   
+}
 
-        const xInside = x - buttonLeft;
-        const yInside = y - buttonTop;
+function dragEnter() {   
+}
 
-        const circle = document.createElement('span');
-        circle.classList.add('circle');
-        circle.style.top = yInside + 'px';
-        circle.style.left = xInside + 'px';
+function dragLeave() {   
+}
 
-        this.appendChild(circle);
-
-        setTimeout(() => circle.remove(), 350)
-    })
-})
+function dragDrop() {   
+}
