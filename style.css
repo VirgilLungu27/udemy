@@ -25,6 +25,17 @@ body {
     background-image: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?cs=srgb&dl=pexels-oleksandr-tiupa-192136.jpg&fm=jpg');
     height: 145px;
     width: 145px;
+    cursor: pointer;
+}
+
+.hold {
+    border: solid 5px #ccc;
+}
+
+.hovered {
+    background-color: #333;
+    border-color: white;
+    border-style: dashed;
 }
 
 @media(max-width: 800px) {
