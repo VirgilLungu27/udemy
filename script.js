@@ -1,5 +1,5 @@
 const fill = document.querySelector('.fill');
-const empty = document.querySelectorAll('.empty');
+const empties = document.querySelectorAll('.empty');
 
 fill.addEventListener('dragstart', dragStart);
 fill.addEventListener('dragend', dragEnd);
@@ -17,16 +17,21 @@ function dragStart() {
 }
 
 function dragEnd() {   
+    this.className = 'fill';
 }
 
-function dragOver() {   
+function dragOver(e) {
+    e.preventDefault();  
 }
 
-function dragEnter() {   
+function dragEnter(e) {
+    e.preventDefault();   
 }
 
 function dragLeave() {   
 }
 
 function dragDrop() {   
+    this.className = 'empty';
+    this.append(fill);
 }
