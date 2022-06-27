@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,40 +8,13 @@ body {
     font-family: 'Poppins', 'Ubuntu', sans-serif;
     margin: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
-    background-color: darkgreen;
+    background-color: #f5f5f5;
 }
 
-.empty {
-    height: 150px;
-    width: 150px;
-    margin: 10px;
-    border: solid 3px black;
-    background: white;
-}
-
-.fill {
-    background-image: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?cs=srgb&dl=pexels-oleksandr-tiupa-192136.jpg&fm=jpg');
-    height: 145px;
-    width: 145px;
-    cursor: pointer;
-}
-
-.hold {
-    border: solid 5px #ccc;
-}
-
-.hovered {
-    background-color: #333;
-    border-color: white;
-    border-style: dashed;
-}
-
-@media(max-width: 800px) {
-    body {
-      flex-direction: column;
-    }
+canvas {
+    border: 2px solid black;
 }
