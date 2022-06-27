@@ -7,15 +7,16 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
     <script src="script.js" defer></script>
-    <title>Drag n Drop</title>
+    <title>Drawing App</title>
 </head>
 <body>
-<div class="empty">
-    <div class="fill" draggable="true"></div>
-</div>
-<div class="empty"></div>
-<div class="empty"></div>
-<div class="empty"></div>
-<div class="empty"></div>
+    <canvas id="canvas" width="800" height="800" style="background: darkgreen"></canvas>
+    <div class="toolbox">
+        <button id="decrease">-</button>
+        <span id="size">20</span>
+        <button id="increase">+</button>
+        <input type="color" id="color">
+        <button id="clear">X</button>
+    </div>
 </body>
 </html>
