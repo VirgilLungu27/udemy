@@ -18,3 +18,24 @@ body {
 canvas {
     border: 2px solid black;
 }
+
+.toolbox {
+    background-color: whitesmoke;
+    border: 1px solid seagreen;
+    display: flex;
+    width: 804px;
+    padding: 1rem;
+}
+
+.toolbox > * {
+    background-color: whitesmoke;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
