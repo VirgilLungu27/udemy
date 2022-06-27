@@ -27,6 +27,10 @@ canvas.addEventListener('mousemove', (e) => {
         const y2 = e.offsetY;
 
         drawCircle(x2, y2);
+        drawLine(x, y, x2, y2);
+
+        x = x2;
+        y = y2;
     }
 })
 
@@ -43,7 +47,7 @@ function drawLine(x1, y1, x2, y2) {
     ctx.moveTo(x1, y1);
     ctx.lineTo(x2, y2);
     ctx.strokeStyle = color;
-    ctx.lineWidth = size;
+    ctx.lineWidth = size * 2;
     ctx.stroke();
 }
 
