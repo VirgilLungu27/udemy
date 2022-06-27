@@ -27,6 +27,7 @@ body {
     height: 0;
     border: 50px solid transparent;
     border-bottom-color: white;
+    animation: rotateA 2s linear infinite 0.5s;
 }
 
 .kinetic::before {
