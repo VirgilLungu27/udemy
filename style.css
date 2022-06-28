@@ -66,3 +66,18 @@ body {
     line-height: 25px;
     letter-spacing: 1.1px;
 }
+
+.nav {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
