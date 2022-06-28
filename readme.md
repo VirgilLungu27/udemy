@@ -1,4 +1,3 @@
 Made as part of an Udemy course.
 
-This project showcases a kinetic CSS loader.
-
+This project showcases the creation of a content placeholder.
