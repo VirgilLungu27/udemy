@@ -11,6 +11,16 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: lightgray;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    box-shadow: 0 5px 10px rgba(0, 0, 0 ,0.2);
+    border-radius: 10px;
     overflow: hidden;
-    background-color: lightgray
+    width: 350px;
 }
