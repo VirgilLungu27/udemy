@@ -16,3 +16,20 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* @todo Nav */
+
+.hero {
+    background-image: url('https://img4.goodfon.com/wallpaper/nbig/d/36/derevo-coffee-kofe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: bottom center;
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
