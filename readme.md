@@ -1,3 +1,4 @@
-Made as part of an Udemy course.
+Made as part of an udemy course.
 
-This project showcases the creation of a content placeholder.
+This project showcases a changing sticky navbar.
+
