@@ -96,3 +96,16 @@ body {
     text-decoration: none;
     padding: 6px 12px;
 }
+
+.nav.active {
+    background-color: whitesmoke;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+    color: #000; 
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
