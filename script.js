@@ -8,17 +8,21 @@ const messages = [
     'message four',
 ];
 
-button.addEventListener('click', () => createNotification());
+button.addEventListener('click', () => createNotification('this is invalid data'));
 
-function createNotification() {
+function createNotification(message = null) {
     const notification = document.createElement('div');
     notification.classList.add('toast');
 
     notification.innerText = getRandomMessage();
 
     toasts.appendChild(notification);
+
+    setTimeout(() => {
+        notification.remove();
+    }, 3000);
 }
 
 function getRandomMessage() {
-    return messages[Math.floor(Math.random() * messages.length)];
+    return messages[Math.floor(Math.random() * messages.length)];   
 }
