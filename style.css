@@ -56,7 +56,7 @@ body {
 }
 
 .toast.success {
-    color: lightgreen;
+    color: darkblue;
 }
 
 .toast.error {
