@@ -1,3 +1,3 @@
 Made as part of an Udemy course.
 
-This project showcases a vertical slider.
+This project showcases the creation of toast notifications.
