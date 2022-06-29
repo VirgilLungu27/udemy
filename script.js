@@ -1,10 +1,6 @@
-const nav = document.querySelector('.nav');
-window.addEventListener('scroll', fixNav)
-
-function fixNav() {
-    if (window.scrollY > nav.offsetHeight + 150) {
-        nav.classList.add('active');
-    } else {
-        nav.classList.remove('active');
-    }
-}
+const sliderContainer = document.querySelector('.slider-container');
+const slideRight = document.querySelector('.right-slide');
+const slideLeft = document.querySelector('.left-slide');
+const upButton = document.querySelector('.up-button');
+const downButton = document.querySelector('.down-button');
+const slidesLength = document.querySelectorAll('div').length;
