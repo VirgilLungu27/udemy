@@ -88,3 +88,13 @@ body {
     margin-left: 0.5rem;
 }
 
+.repo {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
