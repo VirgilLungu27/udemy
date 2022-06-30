@@ -38,9 +38,9 @@ body {
 
 .user-form input::placeholder {
     color: #bbb;
-}
+}       
 
-.user-form input: focus {
+.user-form input::focus {
     outline: none;
 }
 
@@ -63,8 +63,7 @@ body {
 
 .user-info {
     color: #eee;
-    margin-left: 2rem;
-    
+    margin-left: 2rem;   
 }
 
 .user-info h2 {
@@ -88,3 +87,4 @@ body {
     font-size: 0.9rem;
     margin-left: 0.5rem;
 }
+
