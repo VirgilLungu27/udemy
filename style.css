@@ -5,6 +5,8 @@
 }
 
 body {
+    background-color: blueviolet;
+    color: whitesmoke;
     font-family: 'Poppins', 'Ubuntu', sans-serif;
     margin: 0;
     display: flex;
@@ -13,52 +15,4 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    background-color: darkgreen;
-}
-
-.btn {
-    background-color: whitesmoke;
-    color: darkgreen;
-    font-family: inherit;
-    font-weight: 700;
-    padding: 1rem;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn:active {
-    transform: scale(0.97);
-}
-
-#toasts {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.toast {
-    background-color: whitesmoke;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    margin: 0.5rem;
-}
-
-.toast.info {
-    color: darkgreen;
-}
-
-.toast.success {
-    color: darkblue;
-}
-
-.toast.error {
-    color: red;
 }
