@@ -9,7 +9,9 @@ async function getUser(username) {
         const { data } = await axios(APIURL + username);
         createUserCard(data);
     } catch(error) {
-        console.log(error);
+        if(error.response.status == 404) {
+            createErrorCard('User not found.');
+        }
     }
 };
 
@@ -33,6 +35,15 @@ function createUserCard(user) {
 </div>`
     main.innerHTML = cardHTML;
 
+}
+
+function createErrorCard(message) {
+    const cardHTML = `
+    <div class="card">
+        <h2>${message}</h2>
+    </div>`
+
+    main.innerHTML = cardHTML;
 }
 
 form.addEventListener('submit', (e) => {
