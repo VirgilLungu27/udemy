@@ -1,35 +1,12 @@
-const button = document.getElementById('button');
-const toasts = document.getElementById('toasts');
+const APIURL = 'https://api.github.com/users/';
 
-const messages = [
-    'message one',
-    'message two',
-    'message three',
-    'message four',
-];
+getUser('VirgilLungu27');
 
-const types = ['info', 'success', 'error'];
-
-button.addEventListener('click', () => createNotification('this is invalid data', 'success'));
-
-function createNotification(message = null, type = null) {
-    const notification = document.createElement('div');
-    notification.classList.add('toast');
-    notification.classList.add(type ? type : getRandomType());
-
-    notification.innerText = message ? message : getRandomMessage();
-
-    toasts.appendChild(notification);
-
-    setTimeout(() => {
-        notification.remove();
-    }, 3000);
-}
-
-function getRandomMessage() {
-    return messages[Math.floor(Math.random() * messages.length)];   
-}
-
-function getRandomType() {
-    return types[Math.floor(Math.random() * type.length)];
+async function getUser(username) {
+    try {
+        const { data } = await axios(APIURL + username);
+        console.log(data);
+    } catch(error) {
+        console.log(error);
+    }
 }
