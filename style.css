@@ -29,5 +29,10 @@ small {
 .loveMe {
     height: 440px;
     width: 300px;
-    background: url('https://phantom-marca.unidadeditorial.es/f2d792fbd239b6f0d967a889ca7f2a92/resize/1320/f/jpg/assets/multimedia/imagenes/2022/01/08/16416338036382.jpg');
+    background: url('https://phantom-marca.unidadeditorial.es/f2d792fbd239b6f0d967a889ca7f2a92/resize/1320/f/jpg/assets/multimedia/imagenes/2022/01/08/16416338036382.jpg') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0,0, 0.22);
 }
