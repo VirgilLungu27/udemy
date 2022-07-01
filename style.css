@@ -7,45 +7,19 @@
 body {
     font-family: 'Poppins', 'Ubuntu', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     overflow: hidden;
-    text-align: center;
+    background-color: aquamarine;
 }
 
-h3 {
-    margin-bottom: 0;
-    text-align: center;
-}
-
-small {
-    display: block;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.fa-heart {
-    color: darkred;
-}
-
-.loveMe {
-    height: 440px;
-    width: 300px;
-    background: url('https://phantom-marca.unidadeditorial.es/f2d792fbd239b6f0d967a889ca7f2a92/resize/1320/f/jpg/assets/multimedia/imagenes/2022/01/08/16416338036382.jpg') no-repeat center center/cover;
-    margin: auto;
-    cursor: pointer;
-    max-width: 100%;
-    position: relative;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0,0, 0.22);
-}
-
-.loveMe .fa-heart {
+div {
     position: absolute;
-    animation: grow 0.5s linear;
-    transform: translate(-50%, -50%) scale(0);
-}
-
-@keyframes grow {
-    to {
-        transform: translate(-50%, -50%) scale(10);
-        opacity: 0;
-    }
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.07);
+    padding: 10px 20px;
+    font-size: 18px;
 }
