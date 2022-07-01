@@ -36,3 +36,16 @@ small {
     position: relative;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0,0, 0.22);
 }
+
+.loveMe .fa-heart {
+    position: absolute;
+    animation: grow 0.5s linear;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+    to {
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
+}
