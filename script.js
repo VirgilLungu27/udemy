@@ -1,18 +1,3 @@
-const textElement = document.getElementById('text');
-const speedElement = document.getElementById('speed');
-const text = 'we love programming.';
-let idx = 1;
-let speed = 300 / speedElement.nodeValue;
-
-writeText();
-
-function writeText() {
-    textElement.innerText = text.slice(0, idx);
-    idx++;
-
-    if(idx > text.length) {
-        idx = 1;
-    }
-
-    setTimeout(writeText, speed)   
+function getRandomLower() {
+    return String.fromCharCode(Math.floor(Math.random()*26) + 97);
 }
