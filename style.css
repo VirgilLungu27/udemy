@@ -21,3 +21,13 @@ small {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.fa-heart {
+    color: darkred;
+}
+
+.loveMe {
+    height: 440px;
+    width: 300px;
+    background: url('https://phantom-marca.unidadeditorial.es/f2d792fbd239b6f0d967a889ca7f2a92/resize/1320/f/jpg/assets/multimedia/imagenes/2022/01/08/16416338036382.jpg');
+}
