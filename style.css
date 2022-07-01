@@ -10,3 +10,14 @@ body {
     overflow: hidden;
     text-align: center;
 }
+
+h3 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+small {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
