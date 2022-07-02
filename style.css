@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-top: 3rem;
+    background-color: #7bdaf3;
 }
 
 .add {
@@ -56,4 +57,8 @@ body {
     height: 450px;
     width: 100%;
     padding: 20px;
+}
+
+.hidden {
+    display: none;
 }
