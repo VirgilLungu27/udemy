@@ -18,3 +18,15 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.counter.hide {
+    transform: translate(-50%, -50%);
+    animation: hide .2s ease-out;
+}
+
+.final {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
