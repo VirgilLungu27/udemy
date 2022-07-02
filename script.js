@@ -19,6 +19,9 @@ function addNewNote(text = '') {
     const main = note.querySelector('.main');
     const textArea = note.querySelector('textarea');
 
+    textArea.value = text;
+    main.innerHTML = marked(text);
+
     deleteBtn.addEventListener('click', () => {
         note.remove(); 
     })
@@ -26,6 +29,12 @@ function addNewNote(text = '') {
     editBtn.addEventListener('click', () => {
         main.classList.toggle('hidden');
         textArea.classList.toggle('hidden'); 
+    })
+
+    textArea.addEventListener('input', (e) => {
+        const { value } = e.target;
+
+        main.innerHTML = marked(value);
     })
 
     document.body.appendChild(note);
