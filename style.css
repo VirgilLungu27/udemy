@@ -7,58 +7,14 @@
 body {
     font-family: 'Poppins', 'Ubuntu', sans-serif;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 3rem;
-    background-color: #7bdaf3;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.add {
+.counter {
     position: fixed;
-    top: 1rem;
-    right: 1rem;
-    background-color: #9ec862;
-    border: none;
-    border-radius: 3px;
-    padding: 0.5rem 1rem;
-    color: whitesmoke;
-    cursor: pointer;
-}
-
-.note {
-    background-color: whitesmoke;
-    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
-    margin: 30px 20px;
-    height: 450px;
-    width: 450px;
-}
-
-.note .tools {
-    background-color: #9ec862;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0.5rem;
-}
-
-.note .tools button {
-    background-color: transparent;
-    border: none;
-    color: whitesmoke;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-left: 0.5rem;
-}
-
-.note textarea {
-    outine: none;
-    font-family: inherit;
-    font-size: 1.2rem;
-    border: none;
-    height: 450px;
-    width: 100%;
-    padding: 20px;
-}
-
-.hidden {
-    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
