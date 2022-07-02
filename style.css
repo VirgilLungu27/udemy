@@ -43,7 +43,7 @@ body {
 }
 
 .toggle:checked + .label + .ball {
-    animation: slideOn 0.3s linear forwards;
+    animation: slideOn 0.5s linear forwards;
 }
 
 .ball {
@@ -56,7 +56,7 @@ body {
     left: 3px;
     align-items: center;
     justify-content: center;
-    animation: slideOff 0.3s linear forwards;
+    animation: slideOff 0.5s linear forwards;
 }
 
 @keyframes slideOn {
