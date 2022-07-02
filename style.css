@@ -20,6 +20,12 @@ body {
    overflow: hidden;
 }
 
+.image-container {
+   display: flex;
+   transform: translateX(0);
+   transition: transform 0.5s ease-in-out;
+}
+
 img {
     width: 500px;
     height: 500px;
