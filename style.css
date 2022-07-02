@@ -9,4 +9,17 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.add {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #9ec862;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    color: whitesmoke;
+    cursor: pointer;
 }
