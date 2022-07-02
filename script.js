@@ -1,20 +1,16 @@
-const toggles = document.querySelectorAll('.toggle');
-const good = document.querySelector('#good');
-const cheap = document.querySelector('#cheap');
-const fast = document.querySelector('#fast');
+const addBtn = document.getElementById('add');
 
-toggles.forEach(toggle => toggle.addEventListener('change', (e) => doTheTrick(e.target)));
+addBtn.addEventListener('click', () => addNewNote());
 
-function doTheTrick(theClickedOne) {
-    if(good.checked && cheap.checked && fast.checked) {
-        if(good === theClickedOne) {
-            fast.checked = false;
-        }
-        if(cheap === theClickedOne) {
-            good.checked = false;
-        }
-        if(fast === theClickedOne) {
-            cheap.checked = false;
-        }
-    }
+function addNewNote(text = '') {
+    const note = document.createElement('div');
+    note.classList.add('note');
+
+    note.innerHTML = 
+    `<div class="tools">
+        <button class="edit"><i class="fas fa-edit"></i></button>
+        <button class="delete"><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div class="main"></div>
+    <textarea></textarea>`
 }
