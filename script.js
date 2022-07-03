@@ -1,43 +1,5 @@
-const imgs = document.getElementById('imgs');
-const leftButton = document.getElementById('left');
-const rightButton = document.getElementById('right');
+const container = document.getElementById('container');
+const colors = ['white', 'grey', 'rebeccapurple', 'steelblue', 'darkred', 'darkgreen', 'lightblue', 'orange', 'yellow'];
+const SQUARES = 500;
 
-const img = document.querySelectorAll('#imgs img');
 
-let idx = 0;
-let interval = setInterval(run, 3500);
-
-function run() {
-    idx++;
-
-    changeImage();
-}
-
-function changeImage() {
-    if(idx > img.length - 1) {
-        idx = 0
-    } else if(idx < 0) {
-        idx = img.length - 1;
-    }
-
-    imgs.style.transform = `translateX(${-idx * 500}px)`;       
-}
-
-function resetInterval() {
-    clearInterval(interval);
-    interval = setInterval(run, 3500);
-}
-
-rightButton.addEventListener('click', () => {
-    idx++;
-
-    changeImage();
-    resetInterval();
-})
-
-leftButton.addEventListener('click', () => {
-    idx--;
-
-    changeImage();
-    resetInterval();
-})
