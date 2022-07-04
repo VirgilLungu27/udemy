@@ -19,4 +19,6 @@ body {
     bottom: -20px;
     left: -20px;
     right: -20px;
+    z-index: -1;
+    filter: blur(25px);
 }
