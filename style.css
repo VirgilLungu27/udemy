@@ -57,6 +57,8 @@ body {
 
 .box {
     background-image: url('https://thumbs.gfycat.com/DistantSmugIbis-size_restricted.gif');
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
     height: 125px;
     width: 125px;
 }
