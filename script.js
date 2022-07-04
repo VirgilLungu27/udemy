@@ -1,5 +1,5 @@
 const pokeContainer = document.getElementById('poke-container');
-const pokemonCount = 150;
+const pokemonCount = 905;
 const color = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
@@ -28,5 +28,26 @@ const fetchPokemon = async () => {
 }
 
 const getPokemon = async (id) => {
-    const url = `https://pokeapi.co/api/v2/pokemon/${id}`
+    const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+    const res = await fetch(url);
+    const data = res.json();
+    createPokemonCard(data);
 }
+
+const createPokemonCard = (pokemon) => {
+    const pokemonEl = document.createElement('div');
+    pokemonEl.classList.add('pokemon');
+
+    const pokemonInnerHTML = `
+    <div class="img-container">
+        <img src="https://media.printables.com/media/prints/30233/images/300606_05d12d0c-053b-47c7-a29d-57ec89e338e8/thumbs/cover/800x800/png/bulbasaur_original.webp" alt="">
+    </div>
+    <div class="info">
+       <span class="number">#001</span>
+        <h3 class="name">Bulbasaur</h3>
+        <small class="type">Type: <span>Grass/Poison</span></small> 
+    </div>
+    `
+}
+
+fetchPokemon()
