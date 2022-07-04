@@ -17,6 +17,16 @@ const color = {
     normal: '#F5F5F5',
     steel: 'darkgrey',
     ghost: 'rebeccapurple',
-    dark: 'black',
+    dark: 'black',  
     ice: 'lightblue'
+}
+
+const fetchPokemon = async () => {
+    for(let i = 1; i <= pokemonCount; i++) {
+        await getPokemon(i);
+    } 
+}
+
+const getPokemon = async (id) => {
+    const url = `https://pokeapi.co/api/v2/pokemon/${id}`
 }
