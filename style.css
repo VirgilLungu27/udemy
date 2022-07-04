@@ -42,14 +42,21 @@ body {
 }
 
 .boxes {
-    height: 480px;
-    width: 480px;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.boxes.big {
+    width: 600px;
+    height: 600px;
 }
 
 .box {
-    background: yellow;
-    height: 120px;
-    width: 120px;
+    background-image: url('https://thumbs.gfycat.com/DistantSmugIbis-size_restricted.gif');
+    height: 125px;
+    width: 125px;
 }
