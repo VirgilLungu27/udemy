@@ -40,3 +40,16 @@ body {
     box-shadow: none;
     transform: translateY(2px);
 }
+
+.boxes {
+    height: 480px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: yellow;
+    height: 120px;
+    width: 120px;
+}
