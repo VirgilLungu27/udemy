@@ -1,3 +1,3 @@
-Made as part of an Udemy course.
+Made as part of an udemy course.
 
-This project showcases the creation of a password strength check by using a background blur value as a value.
+This project showcases the creation of a rotation event.
