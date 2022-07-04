@@ -1,28 +1,22 @@
-const container = document.getElementById('container');
-const colors = ['white', 'grey', 'rebeccapurple', 'steelblue', 'darkred', 'darkgreen', 'lightblue', 'orange', 'yellow'];
-const SQUARES = 499;
-
-for (let i = 0; i < SQUARES; i++) {
-    const square = document.createElement('div');
-    square.classList.add('square');
-
-    square.addEventListener('mouseover', () => setColor(square));
-    square.addEventListener('mouseout', () => removeColor(square));
-
-    container.appendChild(square);
-}
-
-function setColor(element) {
-    const color = getRandomColor();
-    element.style.background = color;
-    element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`;
-}
-
-function removeColor(element) {
-    element.style.background = '#1d1d1d';
-    element.style.boxShadow = '0 0 2px #000';
-}
-
-function getRandomColor() {
-    return colors[Math.floor(Math.random() * colors.length)];
+const pokeContainer = document.getElementById('poke-container');
+const pokemonCount = 150;
+const color = {
+    fire: '#FDDFDF',
+    grass: '#DEFDE0',
+    electric: '#FCF7DE',
+    water: '#DEF3FD',
+    ground: '#f4e7da',
+    rock: '#d5d5d4',
+    fairy: '#fceaff',
+    poison: '#98d7a5',
+    bug: '#f8d5a3',
+    dragon: '#97b3e6',
+    psychic: '#eaeda1',
+    flying: '#F5F5F5',
+    fighting: '#E6E0D4',
+    normal: '#F5F5F5',
+    steel: 'darkgrey',
+    ghost: 'rebeccapurple',
+    dark: 'black',
+    ice: 'lightblue'
 }
