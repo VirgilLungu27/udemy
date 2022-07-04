@@ -27,3 +27,21 @@ h1 {
     margin: 0 auto;
     max-width: 1200px;
 }
+
+.pokemon {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.pokemon .img-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.pokemon .img-container img {
+    max-width: 90%;
+    margin-top: 20px;
+}
