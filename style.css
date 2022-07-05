@@ -48,3 +48,16 @@ body {
     padding: 10px 15px;
     width: 100%;
 }
+
+.header input:focus {
+    outline: none;
+}
+
+.user-list {
+    background-color: whitesmoke;
+    list-style-type: none;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 0;
+}
