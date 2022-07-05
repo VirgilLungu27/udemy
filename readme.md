@@ -1,3 +1,1 @@
-Made as part of an Udemy course.
-
-This project showcases the creation of a six digit verification UI.
+made as part of an udemy course
