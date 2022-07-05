@@ -47,3 +47,8 @@ body {
     -webkit-appearence: none;
     margin: 0;
 }
+
+.code:valid {
+    border-color: steelblue;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
