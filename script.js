@@ -1,14 +1,18 @@
-const codes = document.querySelectorAll('.code');
+const result = document.getElementById('result');
+const filter = document.getElementById('filter');
+const listItems = [];
 
-codes[0].focus();
+getData(); 
 
-codes.forEach((code, idx) => {
-    code.addEventListener('keydown', (e) => {
-        if(e.key >= 0 && e.key <= 9) {
-            setTimeout(() => codes[idx + 1].focus(),10)
-        }
-        else if (e.key === 'Backspace') {
-            setTimeout(() => codes[idx - 1].focus(),10)
-        }
+async function getData() {
+    const res = await fetch('https://randomuser.me/api?results=50');
+
+    const data = await res.json();
+
+    // Clear results
+    results.innerHTML = '';
+
+    results.forEach(user => {
+        
     })
-})
+}

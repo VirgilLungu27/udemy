@@ -83,5 +83,13 @@ body {
 }
 
 .user-list .user-info p {
-    font-size: 12px;
+    font-size: 12px;    
+}
+
+.user-list li:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+    display: none;
 }
