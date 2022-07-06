@@ -53,9 +53,35 @@ body {
 .rating small {
     color: #555;
     display: inline-block;
+    margin: 10px 0 0;
 }
 
 img {
     width: 40px;
     height: 40px;
+}
+
+.rating:hover small, .rating.active small {
+    color: #111;
+}
+
+.btn {
+    background-color: #302d2b;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.96);
+}
+
+.fa-heart {
+    color: darkred;
 }
