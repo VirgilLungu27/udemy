@@ -8,88 +8,23 @@ body {
     font-family: 'Poppins', 'Ubuntu', sans-serif;
     margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: rgb(241, 241, 239);
 }
 
-.container {
+.panel-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-    width: 300px;
-}
-
-.title {
-    margin: 0;
-}
-
-.subtitle {
-    display: inline-block;
-    margin: 5px 0 20px;
-    opacity: 0.8;
-}
-
-.header {
-    background-color: rebeccapurple;
-    color: white;
-    padding: 30px 20px;
-}
-
-.header input {
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 0;
-    border-radius: 50px;
-    color: white;
-    font-size: 14px;
-    padding: 10px 15px;
-    width: 100%;
-}
-
-.header input:focus {
-    outline: none;
-}
-
-.user-list {
-    background-color: whitesmoke;
-    list-style-type: none;
-    margin: 0;
-    max-height: 400px;
-    overflow-y: auto;
-    padding: 0;
-}
-
-.user-list li {
+    font-size: 95%;
     display: flex;
-    padding: 20px;
-}
-
-.user-list img {
-    border-radius: 50%;
-    object-fit: cover;
-    height: 50px;
-    width: 50px;
-}
-
-.user-list .user-info {
-    margin-left: 10px;
-}
-
-.user-list .user-info h4 {
-    margin: 0 0 10px;
-}
-
-.user-list .user-info p {
-    font-size: 12px;    
-}
-
-.user-list li:not(:last-of-type) {
-    border-bottom: 1px solid #eee;
-}
-
-.user-list li.hide {
-    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
 }
