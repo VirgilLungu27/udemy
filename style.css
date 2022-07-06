@@ -41,7 +41,7 @@ input[type='range'] + label {
     background-color: whitesmoke;
     position: absolute;
     top: -25px;
-    left: 150px;
+    left: 160px;
     width: 80px;
     padding: 5px 0;
     text-align: center;
@@ -85,6 +85,7 @@ input[type='range']::-moz-range-thumb {
     border: 1px solid darkseagreen;
     margin-top: -7px;
 }
+
 /*IE / Edge */
 input[type='range']::-ms-track {
     background: darkseagreen;
