@@ -68,7 +68,23 @@ body {
     position: relative;
 }
 
+.close-btn {
+    opacity: 0.3;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
 .list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.list li {
+    margin: 8px 0;
+}
+
+.list li a {
+    color: rgb(89, 66, 173);
     font-size: 14px;
-    color: black;
 }
