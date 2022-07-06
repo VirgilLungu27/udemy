@@ -45,7 +45,17 @@ body {
     margin: 10px 5px;
 }
 
+.rating:hover, .rating.active {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating small {
+    color: #555;
+    display: inline-block;
+}
+
 img {
-    width: 200px;
-    height: 200px;
+    width: 40px;
+    height: 40px;
 }
