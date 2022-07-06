@@ -87,4 +87,10 @@ body {
 .list li a {
     color: rgb(89, 66, 173);
     font-size: 14px;
+    text-decoration: none;
+}
+
+.list ul {
+    list-style-type: none;
+    padding-left: 20px;
 }
