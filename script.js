@@ -24,3 +24,22 @@ const testimonials = [
         text: "After I got my master’s degree, I started working at an architecture firm. It was not what I anticipated. I felt like I wasn’t getting to be creative or technical. I had just moved to Chicago for my job and ended up getting laid off right when the pandemic hit. I thought this was a good opportunity to take a step back and see what it was that I was missing from my career. That’s when I really went all-in on Codecademy."
     }
 ]
+
+let idx = 1;
+
+function updateTestimonial() {
+    const { name, position, photo, text } = testimonials[idx];
+
+    testimonial.innerHTML = text;
+    userImage.src = photo;
+    username.innerHTML = name;
+    role.innerHTML = position;
+
+    idx++;
+
+    if(idx > testimonials.length - 1) {
+        idx = 0;
+    }
+}
+
+updateTestimonial();
