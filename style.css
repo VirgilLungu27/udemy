@@ -71,6 +71,13 @@ body {
 .user .role {
     font-weight: normal;
     margin: 5px 0;
+}   
+
+.progress-bar {
+    background-color: whitesmoke;
+    height: 4px;
+    width: 100%;
+    animation: grow 12s linear infinite;
 }
 
 @media(max-width: 1000px) {
