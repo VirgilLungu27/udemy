@@ -21,8 +21,23 @@ body {
     background-image: linear-gradient(315deg, whitesmoke, aquamarine);
     border-radius: 25px;
     text-align: center;
-    padding: 10px;
+    padding: 40px;
     width: 1000px;
     margin: 20px auto;
     position: relative;
+}
+
+.fa-quote {
+    color: black;
+    font-size: 28px;
+    position: absolute;
+    top: 45px;
+}
+
+.fa-quote-right {
+    left: 15px;
+}
+
+.fa-quote-left {
+    right: 15px;
 }
