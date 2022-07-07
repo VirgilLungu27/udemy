@@ -22,3 +22,13 @@ body {
     width: 750px;
     overflow: hidden;
 }
+
+.quiz-header {
+    padding: 3rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
