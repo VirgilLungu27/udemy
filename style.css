@@ -59,3 +59,11 @@ button {
     padding: 1.1rem;
     font-weight: 700;
 }
+
+button:hover {
+    background-image: linear-gradient(180deg, whitesmoke, darkslateblue);
+}
+
+button:focus {
+    outline: none;
+}
