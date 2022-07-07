@@ -35,11 +35,16 @@ body {
 }
 
 .fa-quote-right {
-    left: 15px;
+    left: 10px;
 }
 
 .fa-quote-left {
-    right: 15px;
+    right: 10px;
+}
+
+.testimonial {
+    line-height: 28px;
+    text-align: justify;
 }
 
 @media(max-width: 1000px) {
