@@ -60,6 +60,10 @@ body {
     object-fit: cover;
 }
 
+.user .user-details {
+    margin-left: 10px;
+}
+
 @media(max-width: 1000px) {
     .testimonial-container {
         padding: 20px 30px;
