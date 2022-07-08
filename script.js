@@ -4,12 +4,14 @@ const rows = 15
 
 for(let i = 0; i < rows * 4; i++) {
     const img = document.createElement('img');
-    img.src = `${unsplashURL}`;
+    img.src = `${unsplashURL}${getRandomSize()}`;
+    container.appendChild(img);
 }
 
 function getRandomSize() {
-    return `${getrandomNr()}x${getRandomNr()}`
+    return `${getRandomNr()}x${getRandomNr()}`
 }
+
 function getRandomNr() {
     return Math.floor(Math.random() * 15) + 300;
 }
