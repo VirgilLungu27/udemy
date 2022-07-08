@@ -7,6 +7,9 @@ for(let i = 0; i < rows * 4; i++) {
     img.src = `${unsplashURL}`;
 }
 
+function getRandomSize() {
+    return `${getrandomNr()}x${getRandomNr()}`
+}
 function getRandomNr() {
-    return Math.floor(Math.random() * 10) + 300;
+    return Math.floor(Math.random() * 15) + 300;
 }
