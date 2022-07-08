@@ -11,26 +11,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
+    background-color: aliceblue;
+    color: #444;
 }
 
-.title {
-    margin: 10px 0 0;
+h1 {
+    color: rgb(179, 131, 226);
+    font-size: 5rem;
     text-align: center;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1300px;
-}
-
-.container img {
-    object-fit: cover;
-    margin: 10px;
-    height: 300px;
-    width: 300px;
-    max-width: 100%;
+    opacity: 0.7;
 }
