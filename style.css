@@ -37,3 +37,14 @@ form {
     display: block;
     width: 100%;
 }
+
+.input::placeholder {
+    color: #d5d5d5;
+}
+
+.todos {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
