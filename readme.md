@@ -1,3 +1,3 @@
-Made as part of an udemy course.
+Made as part of an Udemy course.
 
-This project showcases the creation of a random image feed from unsplash.com.
+This project showcases the creation of a todo list.
