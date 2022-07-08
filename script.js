@@ -1,17 +1,7 @@
-const container = document.querySelector('.container');
-const unsplashURL = 'https://source.unsplash.com/random/';
-const rows = 15
+const form = document.getElementById('form');
+const input = document.getElementById('input');
+const todosUL = document.getElementById('todos');
 
-for(let i = 0; i < rows * 4; i++) {
-    const img = document.createElement('img');
-    img.src = `${unsplashURL}${getRandomSize()}`;
-    container.appendChild(img);
-}
-
-function getRandomSize() {
-    return `${getRandomNr()}x${getRandomNr()}`
-}
-
-function getRandomNr() {
-    return Math.floor(Math.random() * 15) + 300;
-}
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+});
