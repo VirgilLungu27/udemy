@@ -39,8 +39,23 @@ function addTodo(todo) {
 
         todosUL.appendChild(todoEl);
 
-        input.value = '';
+        input.value = ''
+
+        updateLS();
     }
 }
 
-localStorage.setItem('name', 'Virgil');
+function updateLS() {
+    todosEl = document.querySelectorAll('li');
+
+    const todos = [];
+
+    todosEl.forEach(todoEl => {
+        todos.push({
+            text: todoEl.innerText,
+            completed: todoEl.classList.contains('completed')
+        })
+    })
+
+    localStorage.setItem('todos', JSON.stringify(todos));
+}
